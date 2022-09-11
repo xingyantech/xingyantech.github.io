@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title:  "Caching Strategies"
-date: 2022-09-11 13:50:00 -0000
+author: Xingyan Li
 categories: Caching
 ---
 ## **Introduction**
