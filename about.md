@@ -3,4 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-It's all about techology.
+Hey folks! I'm Xingyan, and this is the my blog where I will regularly share my knowledge about software engineering.
+
+Hope you will find it helpful!
