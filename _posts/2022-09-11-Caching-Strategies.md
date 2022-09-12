@@ -19,7 +19,7 @@ Caching is one of the most important mechanisms that is commonly used in softwar
 To maintain the freshness and validity of the cached data, a **time-to-live** (**TTL**) can be applied to cache entries. A cache entry expires automatically after the TTL has elapsed. Normally, the more frequently the data can change, the smaller the TTL should be. 
 
 ## **Cache eviction policies**
-To prevent the cache size from growing endlessly, some eviction policy can be used to decide which cache entry should be evicted when the cache capacity is reached. Two most common eviction policies are **least-recently-used** (**LRU**) and **least-frequently-used** (**LFU**).
+To prevent the cache size from growing endlessly, some eviction policy can be used to decide which cache entry should be evicted when the cache capacity is reached. The two most common eviction policies are **least-recently-used** (**LRU**) and **least-frequently-used** (**LFU**).
 
 ## **Summary**
 In summary, caching often plays an indispensable role in improving the performance of an application. It can help reduce the response time and increase the throughput without adding significant load on either the application server or the backend database. It should be considered when your application is read-heavy and the same data is being accessed frequently.
